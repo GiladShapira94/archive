@@ -13,3 +13,10 @@ def double(event):
 
 def add3(event):
     return event + 3
+
+from mlrun.runtimes import nuclio_init_hook
+def init_context(context):
+    nuclio_init_hook(context, globals(), 'serving_v2')
+
+def handler(context, event):
+    return context.mlrun_handler(context, event)
