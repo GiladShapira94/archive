@@ -1,0 +1,11 @@
+kind: project
+metadata:
+  name: testting-2
+spec:
+  functions:
+  - url: db://testting-2/test
+    name: test
+  workflows: []
+  artifacts: []
+  source: ''
+  desired_state: online
