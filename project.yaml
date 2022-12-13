@@ -5,7 +5,10 @@ spec:
   functions:
   - url: db://testting-2/test
     name: test
-  workflows: []
+  workflows:
+  - path: workflow.py
+    name: main
   artifacts: []
-  source: ''
+  source: https://github.com/GiladShapira94/archive.git
+  load_source_on_run: false
   desired_state: online
