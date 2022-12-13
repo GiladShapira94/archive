@@ -24,29 +24,72 @@ def kfpipeline():
     
     serving_2 = funcs['test'].as_step().after(serving_1)
     
-    serving = funcs['test'].as_step()
+    serving_3 = funcs['test'].as_step().after(serving_2)
     
-    serving_1 = funcs['test'].as_step().after(serving)
+    asdsad = funcs['test'].as_step()
     
-    serving_2 = funcs['test'].as_step().after(serving_1)
+    adsad_1 = funcs['test'].as_step().after(asdsad)
+    
+    adsad_2 = funcs['test'].as_step().after(adsad_1)
+    
+    adsad_3 = funcs['test'].as_step().after(adsad_2)
 
-    serving = funcs['test'].as_step()
     
-    serving_1 = funcs['test'].as_step().after(serving)
+    safsaf = funcs['test'].as_step()
     
-    serving_2 = funcs['test'].as_step().after(serving_1)
+    safff_1 = funcs['test'].as_step().after(safsaf)
     
-    serving = funcs['test'].as_step()
+    sfsf = funcs['test'].as_step().after(safff_1)
     
-    serving_1 = funcs['test'].as_step().after(serving)
-    
-    serving_2 = funcs['test'].as_step().after(serving_1)
-    
-    serving = funcs['test'].as_step()
-    
-    serving_1 = funcs['test'].as_step().after(serving)
-    
-    serving_2 = funcs['test'].as_step().after(serving_1)
+    eeeee = funcs['test'].as_step().after(sfsf)
 
+    
+    rrr = funcs['test'].as_step()
+    
+    rrfafa = funcs['test'].as_step().after(rrr)
+    
+    www = funcs['test'].as_step().after(rrfafa)
+    
+    rrtw = funcs['test'].as_step().after(www)
+    
+    serving = funcs['test'].as_step()
+    
+    serving_1 = funcs['test'].as_step().after(serving)
+    
+    serving_2 = funcs['test'].as_step().after(serving_1)
+    
+    serving_3 = funcs['test'].as_step().after(serving_2)
+    
+    serving = funcs['test'].as_step()
+    
+    serving_1 = funcs['test'].as_step().after(serving)
+    
+    serving_2 = funcs['test'].as_step().after(serving_1)
+    
+    serving_3 = funcs['test'].as_step().after(serving_2)
+    
+    serving = funcs['test'].as_step()
+    
+    serving_1 = funcs['test'].as_step().after(serving)
+    
+    serving_2 = funcs['test'].as_step().after(serving_1)
+    
+    serving_3 = funcs['test'].as_step().after(serving_2)
+    
+    serving = funcs['test'].as_step()
+    
+    serving_1 = funcs['test'].as_step().after(serving)
+    
+    serving_2 = funcs['test'].as_step().after(serving_1)
+    
+    serving_3 = funcs['test'].as_step().after(serving_2)
+    
+    serving = funcs['test'].as_step()
+    
+    serving_1 = funcs['test'].as_step().after(serving)
+    
+    serving_2 = funcs['test'].as_step().after(serving_1)
+    
+    serving_3 = funcs['test'].as_step().after(serving_2)
     
 
